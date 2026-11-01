@@ -2,7 +2,7 @@
 
 | Dataset | Provider | Download Date | CRS | License |
 |---|---|---|---|---|
-| Berlin infrastructure | Geofabrik / OpenStreetMap | To be added | To be checked | ODbL |
+| Berlin infrastructure | Geofabrik / OpenStreetMap | 01.11.2026 | EPSG:25833 | ODbL |
 
 ## Attribution
 
