@@ -132,9 +132,26 @@ These checks establish the validity of **individual feature geometries**. They d
 
 Open `project/infrastructure_gis_atlas.qgz` in QGIS. The project uses **relative paths** so its directory can be moved as a unit.
 
-**Important data availability note:** Two large derived GeoPackages — `data/processed/berlin_roads.gpkg` and `data/processed/berlin_buildings.gpkg` — are excluded from the Git repository due to their size. They must be placed at these exact relative paths before the complete interactive QGIS project can render. Separate download distribution is planned; **the files are not yet included with this repository**. The original `data/raw/` downloads are also excluded. Other source-dependent layers or auxiliary tables may need to be restored if QGIS reports missing sources.
+**Important data availability note:** Two large derived GeoPackages — `data/processed/berlin_roads.gpkg` and `data/processed/berlin_buildings.gpkg` — are excluded from the Git repository due to their size. They must be placed at these exact relative paths before the complete interactive QGIS project can render. The original `data/raw/` downloads are also excluded. Other source-dependent layers or auxiliary tables may need to be restored if QGIS reports missing sources.
 
 The PDF maps and PNG charts in `outputs/` can be viewed without QGIS or the source GeoPackages.
+
+### Download the GIS datasets
+
+The two largest processed GeoPackages are distributed
+separately through GitHub Releases.
+
+**[Download GIS datasets – v1.0.0](https://github.com/vm-gis/01-infrastructure-gis-atlas/releases/tag/v1.0.0)**
+
+Required files:
+- `berlin_roads.gpkg`
+- `berlin_buildings.gpkg`
+
+Place both files in `data/processed/` before opening
+the QGIS project.
+
+The remaining supporting datasets are included
+in the repository.
 
 ## Data sources and attribution
 
