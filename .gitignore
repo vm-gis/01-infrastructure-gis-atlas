@@ -1,6 +1,8 @@
 # Original downloaded datasets
 /data/raw/
 /data/temp/
+/data/processed/berlin_roads.gpkg
+/data/processed/berlin_buildings.gpkg
 
 # Temporary GIS files
 *.qgz~
